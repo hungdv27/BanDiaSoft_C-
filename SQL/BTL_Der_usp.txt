@@ -1,0 +1,14 @@
+ChiTietHDB
+-usp_ChiTietHDB_Insert: ( Insert những thằng chưa có)
++ 0 : đã tồn tại chi tiết hdb đấy trong dbo.ChiTietHDB
++ 1: Chưa tồn tại chi tiết hdb nhưng mã hdb không tồn tại
++ 2: Chưa tồn tại chi tiết hdb nhưng mã đĩa không tồn tại
++ 3: Insert thành công
+-usp_ChiTietHDB_Insert: ( Update những thằng đã có)
++0: Chưa tồn tại chi tiết hdb trong dbo.ChiTietHDB
++1: Đã tồn tại chi tiết hdb nhưng mã hdb không tồn tại
++2: Đã tồn tai chi tiết hdb nhưng mã đia không tồn tại
++3: Update thành công
+-Usp_ChiTietHDB_Delete
++0: Không tồn tại chi tiết hdb và không xóa
++1:Có tồn tại chi tiết hdb và Xóa thành công
